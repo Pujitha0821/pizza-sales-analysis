@@ -22,7 +22,7 @@ select DATENAME(dw,order_date) AS Order_Day, COUNT(DISTINCT order_id) AS Total_O
 Group By DATENAME(dw,order_date)
 
 
-'''DATEPART is a built-in SQL function that returns a specific part of a date — like the year, month, day, hour, or weekday — as a number (integer).'''
+'''DATEPART is a built-in SQL function that returns a specific part of a date â€” like the year, month, day, hour, or weekday â€” as a number (integer).'''
 
 
 --HOURLY TREND
